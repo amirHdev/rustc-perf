@@ -1,0 +1,6 @@
+[package]
+name = "issue-159933-new-solver"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
