@@ -90,6 +90,7 @@ compiler in interesting ways.
   performance](https://github.com/rust-lang/rust/issues/46449) in the past.
 - **issue-58319**: A small program that caused [poor
   performance](https://github.com/rust-lang/rust/issues/58319) in the past.
+- **issue-159933-new-solver**: A large function with repeated inferred vector pushes, reproducing redundant next-solver fulfillment scans from [rust-lang/rust#159933](https://github.com/rust-lang/rust/issues/159933).
 - **issue-88862**: A MCVE of a program that had a
   [severe performance regression](https://github.com/rust-lang/rust/issues/88862)
   when trying to normalize large opaque types with late-bound regions.
